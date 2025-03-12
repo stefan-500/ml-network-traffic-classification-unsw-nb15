@@ -4,6 +4,18 @@ This project focuses on **network traffic classification** using multiple **Mach
 The dataset used is **UNSW-NB15**, which contains both normal and attack traffic of various types (Fuzzers, DoS, Shellcode, etc.).  
 The goal is to implement different ML approaches to accurately classify network traffic and analyze model performance.
 
+## Project Structure  
+
+```bash
+📂 ml-network-traffic-classification-unsw-nb15  
+│── 📂 data/                 # datasets  
+│── 📂 eda/                  # exploratory data analysis
+│── 📂 models/                 
+│   ├── 📂 svm_binary/       # binary classification using SVM 
+│── 📜 README.md             
+│── 📜 LICENSE                
+```
+
 ## Dataset
 The **UNSW-NB15** is a comprehensive data set for network intrusion detection systems, created by dr. Nour Moustafa and dr. Jill Slay.  
 A detailed explanation of the dataset can be found on their [original paper](https://ieeexplore.ieee.org/abstract/document/7348942) and on the [UNSW-NB15](https://research.unsw.edu.au/projects/unsw-nb15-dataset) page.  
@@ -24,7 +36,7 @@ The attack-labeled network traffic data contains **nine different attack categor
 - **Worms** – Self-replicating malware that spreads across networks.    
 
 ## Technologies Used  
-- **Python** (pandas, numpy, matplotlib, seaborn, sklearn)  
+- **Python** (fastparquet, pandas, numpy, scipy, sklearn, matplotlib, seaborn, joblib)  
 
 ## Support Vector Machine (Polynomial Kernel)
 

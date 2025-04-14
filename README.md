@@ -12,6 +12,9 @@ The goal is to implement different ML approaches to accurately classify network 
 │── 📂 eda/                  # exploratory data analysis
 │── 📂 models/                 
 │   ├── 📂 svm_binary/       # binary classification using SVM 
+│── 📂 visualizations/       # plots                 
+│   ├── 📂 general/
+│   ├── 📂 svm_binary/
 │── 📜 README.md             
 │── 📜 LICENSE                
 ```

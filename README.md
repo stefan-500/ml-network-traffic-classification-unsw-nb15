@@ -9,9 +9,12 @@ The goal is to implement different ML approaches to accurately classify network 
 ```bash
 📂 ml-network-traffic-classification-unsw-nb15  
 │── 📂 data/                 # datasets  
+│   ├── 📂 processed/
 │── 📂 eda/                  # exploratory data analysis
 │── 📂 models/                 
 │   ├── 📂 svm_binary/       # binary classification using SVM 
+│   ├── 📂 svm_multiclass/   # multiclass classification using SVM
+│── 📂 preprocessing/
 │── 📂 visualizations/       # plots                 
 │   ├── 📂 general/
 │   ├── 📂 svm_binary/
